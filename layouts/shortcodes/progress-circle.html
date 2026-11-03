@@ -1,0 +1,14 @@
+{{ $value := .Get "value" | default "0" }}
+{{ $label := .Get "label" | default "Progress" }}
+<div style="display:flex; flex-direction:column; align-items:center; width:130px;">
+  <div class="text-primary-600 dark:text-primary-400" style="position:relative; width:100px; height:100px;">
+    <svg viewBox="0 0 100 100" style="transform:rotate(-90deg); width:100%; height:100%;">
+      <circle cx="50" cy="50" r="42" fill="none" stroke="gray" stroke-opacity="0.25" stroke-width="10"/>
+      <circle cx="50" cy="50" r="42" fill="none" stroke="currentColor" stroke-width="10"
+              stroke-linecap="round" pathLength="100" stroke-dasharray="{{ $value }} 100"/>
+    </svg>
+    <span class="font-black tracking-tight" style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-size:1.5rem;">{{ $value }}%</span>
+  </div>
+  <p class="mt-2 font-bold text-neutral-900 dark:text-white">{{ $label | markdownify }}</p>
+  {{ with .Inner }}<div class="mt-1 text-sm leading-6 text-neutral-600 dark:text-neutral-400">{{ . | markdownify }}</div>{{ end }}
+</div>

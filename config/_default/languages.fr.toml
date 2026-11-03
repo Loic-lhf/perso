@@ -1,0 +1,28 @@
+disabled = false
+locale = "fr"
+label = "Français"
+weight = 1
+title = "Accueil"
+
+[params]
+  displayName = "FR"
+  isoCode = "fr"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "avatar/avatar.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "Site officiel de Loïc LHF"
+  copyright = "© { year } Loïc LHF · [Credits](/credits/)"
+
+[params.author]
+  name = "Loïc LHF"
+  email = "loic.lhf@gmail.com"
+  image = "avatar/avatar.png"
+  headline = "Je fais des choses aléatoires, c'est normal."
+  links = [
+    { bluesky = "https://bsky.app/profile/loic-lhf.bsky.social" },
+    { github = "https://github.com/Loic-lhf" },
+    { comment = "https://www.babelio.com/monprofil.php?id_user=2275415" }
+  ]
+  # imageQuality = 96
+  # bio = "A little bit about you"

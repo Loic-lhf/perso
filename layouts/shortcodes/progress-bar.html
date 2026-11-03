@@ -1,0 +1,12 @@
+{{ $value := .Get "value" | default "0" }}
+{{ $label := .Get "label" | default "Progress" }}
+<div>
+  <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:0.4rem;">
+    <span class="font-bold text-neutral-900 dark:text-white">{{ $label | markdownify }}</span>
+    <span class="font-black tracking-tight text-primary-600 dark:text-primary-400">{{ $value }}%</span>
+  </div>
+  <div style="height:0.6rem; border-radius:999px; background:color-mix(in srgb, gray 25%, transparent); overflow:hidden;">
+    <div class="text-primary-600 dark:text-primary-400" style="height:100%; width:{{ $value }}%; border-radius:999px; background:currentColor;"></div>
+  </div>
+  {{ with .Inner }}<div class="mt-2 text-sm leading-6 text-neutral-600 dark:text-neutral-400">{{ . | markdownify }}</div>{{ end }}
+</div>
