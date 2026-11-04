@@ -1,8 +1,16 @@
 {{ define "main" }}
 {{ .Scratch.Set "scope" "single" }}
 
+  {{ if .Site.Params.article.showHero | default false }}
+    {{ $heroStyle := .Params.heroStyle | default .Site.Params.article.heroStyle }}
+    {{ if $heroStyle }}
+      {{ partial (print "hero/" $heroStyle ".html") . }}
+    {{ else }}
+      {{ partial "hero/basic.html" . }}
+    {{ end }}
+  {{ end }}
+
   <article class="max-w-full">
-    {{/* rest of your layout unchanged */}}
     <header>
       {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
