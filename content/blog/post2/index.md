@@ -1,6 +1,6 @@
 ---
-title: "ReadAction V1"
-summary: "La vraie raison pour laquelle je me suis motivé à faire ce site à la base !"
+title: "ReadAction"
+summary: "Un premier projet perso, juste pour le fun!"
 #externalUrl: ""
 cover : "cover.png"
 showSummary: true
@@ -26,7 +26,7 @@ Bon, il y a déjà d'autres projets bien plus connus qui sont similaires, la plu
 
 Je dois encore le tester et l'améliorer, mais on est sur un début prometteur (enfin je trouve).
 
-Vous pouvez retrouver le page du projet *ReadAction* [sur cette page du site](/readaction/), et le code que j'ai utilisé sur [la page github dédiée](https://github.com/louisdalo/ReadAction).
+Vous pouvez retrouver la page du projet *ReadAction* [via cette page](/readaction/), et le code que j'ai utilisé sur [la page github dédiée](https://github.com/Loic-lhf/ReadAction).
 
 
 **_Sur ce, la bise. LD._**

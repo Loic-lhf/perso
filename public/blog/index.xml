@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Accueil</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>http://localhost:1313/perso/blog/</link>
     <description>Recent content in Blog on Accueil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <managingEditor>louis.dalo.off@gmail.com (Louis Dalo)</managingEditor>
-    <webMaster>louis.dalo.off@gmail.com (Louis Dalo)</webMaster>
-    <copyright>© 2026 Louis Dalo · [Credits](/credits/)</copyright>
-    <lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>loic.lhf@gmail.com (Loïc LHF)</managingEditor>
+    <webMaster>loic.lhf@gmail.com (Loïc LHF)</webMaster>
+    <copyright>© 2026 Loïc LHF · [Credits](/credits/)</copyright>
+    <lastBuildDate>Tue, 10 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/perso/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>ReadAction V1</title>
-      <link>http://localhost:1313/blog/post2/</link>
+      <title>ReadAction</title>
+      <link>http://localhost:1313/perso/blog/post2/</link>
       <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-      <author>louis.dalo.off@gmail.com (Louis Dalo)</author>
-      <guid>http://localhost:1313/blog/post2/</guid>
-      <description>La vraie raison pour laquelle je me suis motivé à faire ce site à la base !</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/post2/cover.png" />
+      <author>loic.lhf@gmail.com (Loïc LHF)</author>
+      <guid>http://localhost:1313/perso/blog/post2/</guid>
+      <description>Un premier projet perso, juste pour le fun!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/perso/blog/post2/cover.png" />
     </item>
     
     <item>
       <title>Ouverture</title>
-      <link>http://localhost:1313/blog/post1/</link>
+      <link>http://localhost:1313/perso/blog/post1/</link>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-      <author>louis.dalo.off@gmail.com (Louis Dalo)</author>
-      <guid>http://localhost:1313/blog/post1/</guid>
+      <author>loic.lhf@gmail.com (Loïc LHF)</author>
+      <guid>http://localhost:1313/perso/blog/post1/</guid>
       <description>Les débuts sont toujours des moments délicats&amp;hellip;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/post1/cover.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/perso/blog/post1/cover.png" />
     </item>
     
   </channel>
