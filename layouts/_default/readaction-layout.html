@@ -1,23 +1,6 @@
 {{ define "main" }}
 {{ .Scratch.Set "scope" "single" }}
 
-  {{/* Scoped background image for this page only */}}
-  {{ if .Params.image }}
-  <style>
-    .page-background {
-      position: fixed;
-      inset: 0;
-      z-index: -1;
-      background-image: url('{{ .Params.image | relURL }}');
-      background-size: cover;
-      background-position: center;
-      filter: blur(0.6px) opacity(0.3);
-      transform: scale(1);
-    }
-  </style>
-  <div class="page-background"></div>
-  {{ end }}
-
   <article class="max-w-full">
     {{/* rest of your layout unchanged */}}
     <header>
