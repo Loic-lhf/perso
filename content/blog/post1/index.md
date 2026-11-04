@@ -23,7 +23,7 @@ Et je pense que c'est une bonne chose d'avoir un endroit où l'on peut être, sa
 
 Reste a voir ce que ça va donner !
 
-**_La bise. LD._**
+**_La bise. LL._**
 
 --- 
 

@@ -26,7 +26,7 @@ Bon, il y a déjà d'autres projets bien plus connus qui sont similaires, la plu
 
 Je dois encore le tester et l'améliorer, mais on est sur un début prometteur (enfin je trouve).
 
-Vous pouvez retrouver la page du projet *ReadAction* [via cette page](/readaction/), et le code que j'ai utilisé sur [la page github dédiée](https://github.com/Loic-lhf/ReadAction).
+Vous pouvez retrouver la page du projet *ReadAction* [via cette page](https://loic-lhf.github.io/perso/readaction/), et le code que j'ai utilisé sur [la page github dédiée](https://github.com/Loic-lhf/ReadAction).
 
 
-**_Sur ce, la bise. LD._**
+**_Sur ce, la bise. LL._**

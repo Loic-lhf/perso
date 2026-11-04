@@ -1,13 +1,15 @@
 ---
-title: "Projets"
-description: "Mes projets perso!"
-
+title: "Projets perso"
 cardView: true
 cardViewScreenWidth: false
 
 groupByYear: false
 orderByWeight: false
 showBreadcrumbs: false
+
+bottomLink:
+  text: "Voir mes projets plus académiques →"
+  url: "https://loic-lhf.github.io/pro/fr/project/"
 
 cascade:
   showEdit: false
