@@ -20,9 +20,10 @@ Dans tout les cas, la moindre des choses (je trouve) est de créditer les source
 
 | Image | Source |
 | ----- | ------ |
-| [`Accueil`](/)| [Cairn](https://www.thegamebakers.com/cairn/) via [imgur](https://imgur.com/a/IpmMmtW) |
-| [`Blog1`](/blog/post1/) | [Gardens Interactive](https://gardens.dev/) |
-| [`Blog2`](/blog/post2/) | [Michael Khinevich](https://www.artstation.com/mikekhine) |
+| [`Accueil`](/)| [Cairn](https://www.thegamebakers.com/cairn/) |
+| [`/blog/post1/`](/blog/post1/) | [Gardens Interactive](https://gardens.dev/) |
+| [`/blog/post2/`](/blog/post2/) | [Michael Khinevich](https://www.artstation.com/mikekhine) |
+| [`/blog/post3/`](/blog/post3/) | [ReFiend](https://www.deviantart.com/refiend/art/Little-Tower-1065980898) |
 
 _Je précise que même s'il s'agit ici d'une utilisation non-commerciale, je ne possède aucun droit sur ces images. Ainsi, si leurs auteurs souhaitent les faire retirer de ce site, qu'ils n'hésitent pas à me contacter._
 
