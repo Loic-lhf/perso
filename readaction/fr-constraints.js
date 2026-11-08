@@ -214,6 +214,3 @@ const WC_CONSTRAINTS = {
   ],
 
 };
-
-const WC_COVER_IMAGE = "";
-const WC_COVER_IMAGE_DARK = "";
