@@ -1,0 +1,3 @@
+html:not(.dark) img[src*="avatar"] {
+  filter: invert(1);
+}
