@@ -1,0 +1,33 @@
+{{- $page := .page -}}
+{{- $class := .class | default "" -}}
+{{- $style := .style | default "" -}}
+{{- $alt := .alt | default $page.Title -}}
+
+{{- /* light image: use the one passed in, otherwise resolve from front matter */ -}}
+{{- $light := .light | default "" -}}
+{{- if not $light -}}
+  {{- with $page.Params.featureimage -}}
+    {{- with $page.Resources.GetMatch . -}}{{- $light = .RelPermalink -}}
+    {{- else with resources.Get . -}}{{- $light = .RelPermalink -}}
+    {{- else -}}{{- $light = . | relURL -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $dark := "" -}}
+{{- with $page.Params.featureimage_dark -}}
+  {{- with $page.Resources.GetMatch . -}}{{- $dark = .RelPermalink -}}
+  {{- else with resources.Get . -}}{{- $dark = .RelPermalink -}}
+  {{- else -}}{{- $dark = . | relURL -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if and $light $dark -}}
+  <img src="{{ $light }}" alt="{{ $alt }}" loading="lazy" decoding="async" fetchpriority="low"
+       class="{{ $class }} block dark:hidden" {{ with $style }}style="{{ . | safeCSS }}"{{ end }}>
+  <img src="{{ $dark }}" alt="{{ $alt }}" loading="lazy" decoding="async" fetchpriority="low"
+       class="{{ $class }} hidden dark:block" {{ with $style }}style="{{ . | safeCSS }}"{{ end }}>
+{{- else if $light -}}
+  <img src="{{ $light }}" alt="{{ $alt }}" loading="lazy" decoding="async" fetchpriority="low"
+       class="{{ $class }}" {{ with $style }}style="{{ . | safeCSS }}"{{ end }}>
+{{- end -}}
