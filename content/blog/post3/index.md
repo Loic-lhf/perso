@@ -10,21 +10,25 @@ draft: false
 
 ## Origine du projet
 
-Cela fait plus d'un an que je rentre minutieusement mes lectures sur Babelio avec mes notes, mes critiques, etc... (onglet "Réseaux" du site si jamais). Bref, c'est pas le sujet.
+Cela fait plus d'un an que je rentre minutieusement mes lectures sur Babelio avec mes notes, mes critiques, etc... Et l'application fonctionne vraiment très bien mais ce n'est pas le sujet.
 
-Sur Babelio, il y a un évènement particulièrement alléchant : [les opérations masse critique](https://www.babelio.com/massecritique.php). Pour faire simple, c'est un évènement mensuel avec plusieurs centaines de livres que vous pouvez "demander", et qu'on vous envoie gratuitement en échange d'une critique. Dit comme ça, c'est plutôt simple mais dans les faits je n'ai encore jamais reçu de livre avec ce processus.
+Sur Babelio, il y a un évènement particulièrement alléchant : [les opérations Masse Critique](https://www.babelio.com/massecritique.php). Pour faire simple, c'est un évènement mensuel dans lequel plusieurs centaines de livres peuvent être envoyés gratuitement à des lecteurs de l'application, en échange d'une critique. Il suffit de demander un des livres de la liste, et on a une chance d'être sélectionné dans l'opération. (Bon, dit comme ça, ça parait simple mais dans les faits je n'ai encore jamais été sélectionné... Pas de chance je suppose).
 
-A chaque fois, plusieurs centaines de livres sont listés, et il n'est pas question de demander des livres au hasard: imaginez que j'en reçoive un qui n'est pas du tout à mes goûts, la lecture serait très ennuyeuse. Donc chaque mois, je me retrouve à lire les titre et résumés de tous ces livres pour ne demander que ceux qui pourraient potentiellement m'intéresser... 
+Donc chaque mois, plusieurs centaines de livres sont listés, la plupart totalement inconnus (c'est le but, de rajouter des critiques à ces livres).
+
+Personnellement, je trouve qu'il serait idiot de demander des livres de la list au hasard, ou en nombre. Si je reçois un livre gratuitement et que je dois le critiquer, je préfère que celui-ci me plaise. Donc chaque mois, je me retrouve à lire la fiche de chaque livre de l'opération Masse Critique en cours : auteur, titre, résumé, notes, ...
 
 C'est très fastidieux.
 
 ## L'idée
 
-J'ai une petite formation en IA (pas sur les *méchants* LLMs mais plutôt pour utiliser des modèles de Machine Learning pour l'analyse de données) et je code en Python sur mon temps libre. C'est un passe temps utile pour se créer de petits outils logiciels.
+Je code en Python sur mon temps libre et j'ai une petite formation en IA (pas sur les *méchants* LLMs, mais plutôt pour utiliser des modèles de *Machine Learning* qui permettent de faire de l'analyse de données). C'est un passe temps comme un autre, mais que je trouve utile pour se créer de petits outils logiciels.
 
-Du coup, je me suis dit que c'était l'occasion de créer une interface pour faire cette sélection à ma place ! Il suffit d'annoter quelques livres que j'ai lus pour apprendre à un modèle ce que j'aime/n'aime pas. Ensuite, il devrait pouvoir en tirer un pattern et prédire quels livres des [opérations masse critique](https://www.babelio.com/massecritique.php) pourraient m'intéresser ! 
+Du coup, je me suis dit que c'était l'occasion de créer une interface pour faire cette sélection des livres de Masse Crtiique à ma place ! Il suffit d'annoter quelques livres que j'ai lus pour enseigner à un modèle basique ce que j'aime/n'aime pas. Ensuite, il devrait pouvoir en tirer un pattern et prédire quels livres des [opérations masse critique](https://www.babelio.com/massecritique.php) pourraient m'intéresser ! 
 
-Bon. Alors. Cela parait facile sur le papier mais c'était en réalité une bien belle galère pour plein de raisons presque toutes liées à la mise en forme des données (comme tout bon projet en science des données finalement). Mais après plus d'un mois de développement, j'ai finalisé une application qui se trouve être bien mieux finie que ce à quoi je m'attendais au départ !
+Bon. Alors. 
+
+Cela parait facile sur le papier mais c'était en réalité une bien belle galère pour plein de raisons presque toutes liées à la mise en forme des données (comme tout bon projet en science des données finalement). Mais après plus d'un mois de développement, j'ai finalisé une application qui se trouve être bien mieux finie que ce à quoi je m'attendais au départ !
 
 ## Le résultat
 
@@ -37,4 +41,4 @@ Je ne vais pas essayer d'expliquer le fonctionnement ici puisque tout est dispon
 
 C'est (normalement) accessible à tous, alors j'espère que ça servira à d'autres !
 
-**_Humainement, la bise. LL._**
+**_A la prochaine, la bise. LL._**
