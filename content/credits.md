@@ -11,21 +11,16 @@ showHero: true
 
 
 ## Avatar
-J'ai créé l'image d'avatar à partir d'une [icone gratuite](https://www.svgrepo.com/svg/86958/feather) et d'huile de coude. 
+J'ai créé l'avatar à partir d'une [icone gratuite](https://www.svgrepo.com/svg/86958/feather) et d'huile de coude. 
 
 ## Images d'illustration
-Je n'ai pas assez de talent pour faire de beaux dessins, j'ai donc repris des images en ligne qui sont, j'espère, faites par des vrais humains. 
+Je n'ai pas assez de temps/talent pour faire de beaux dessins, j'ai donc repris des images en ligne. Elles sont toutes ouvertement ré-utilisables et, j'espère, faites par de vrais humains. 
 
-Dans tout les cas, la moindre des choses (je trouve) est de créditer les sources/auteurs de ces images :
+Un grand merci aux artistes qui m'ont permis d'illustrer mon site grâce à leurs œuvres ouvertes :
 
-| Utilisation | Image | Source |
-| ----- | ----- | ------ |
-| Arrière-plan | [imgur-fzv3yu3.jpeg](https://github.com/Loic-lhf/perso/blob/main/assets/background/imgur-fzv3yu3.jpeg) | [Cairn](https://www.thegamebakers.com/cairn/) |
-| Tags "nouveauté" | [gardens-campfire.png](https://github.com/Loic-lhf/perso/blob/main/assets/covers/gardens-campfire.png) | [Gardens Interactive](https://gardens.dev/) |
-| Tags "projet" | [last-hand-in-sand.jpg](https://github.com/Loic-lhf/perso/blob/main/assets/covers/last-hand-in-sand.jpg) | [Léa Pinto (Artstation)](https://www.artstation.com/artwork/wOPnyg) |
-
-
-_Je précise que même s'il s'agit ici d'une utilisation non-commerciale, je ne possède aucun droit sur ces images. Ainsi, si leurs auteurs souhaitent les faire retirer de ce site, qu'ils n'hésitent pas à me contacter._
+- **Reactorcore** via [itch.io](https://reactorcore.itch.io/distant-lands-bgs) (autorisation au même lien).
+- **ReFiend** via [deviantart.com](https://www.deviantart.com/refiend) (autorisation sur [son profil](https://www.deviantart.com/refiend/about)).
+- **Kvacm** via [artstation.com](https://www.artstation.com/kvacm) (autorisation sur [son propre site](https://kvacm.carrd.co/#use)).
 
 ## Modèle du site
 Site construit à partir du modèle [Blowfish - Artist Template](https://github.com/nunocoracao/blowfish_artist/), qui utilise [Hugo](https://gohugo.io/).
