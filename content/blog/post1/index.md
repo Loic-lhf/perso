@@ -2,8 +2,9 @@
 title: "Ouverture"
 summary: "Les débuts sont toujours des moments délicats..."
 #externalUrl: ""
-cover : "cover.png"
+featureimage : "covers/gardens-campfire.png"
 showSummary: true
+tags: ["Nouveauté"]
 date: 2026-03-06
 draft: false
 ---

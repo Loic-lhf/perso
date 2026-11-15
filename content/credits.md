@@ -18,12 +18,12 @@ Je n'ai pas assez de talent pour faire de beaux dessins, j'ai donc repris des im
 
 Dans tout les cas, la moindre des choses (je trouve) est de créditer les sources/auteurs de ces images :
 
-| Image | Source |
-| ----- | ------ |
-| [`Accueil`](/)| [Cairn](https://www.thegamebakers.com/cairn/) |
-| [`/blog/post1/`](/blog/post1/) | [Gardens Interactive](https://gardens.dev/) |
-| [`/blog/post2/`](/blog/post2/) | [Michael Khinevich](https://www.artstation.com/mikekhine) |
-| [`/blog/post3/`](/blog/post3/) | [ReFiend](https://www.deviantart.com/refiend/art/Little-Tower-1065980898) |
+| Utilisation | Image | Source |
+| ----- | ----- | ------ |
+| Arrière-plan | [imgur-fzv3yu3.jpeg](https://github.com/Loic-lhf/perso/blob/main/assets/background/imgur-fzv3yu3.jpeg) | [Cairn](https://www.thegamebakers.com/cairn/) |
+| Tags "nouveauté" | [gardens-campfire.png](https://github.com/Loic-lhf/perso/blob/main/assets/covers/gardens-campfire.png) | [Gardens Interactive](https://gardens.dev/) |
+| Tags "projet" | [last-hand-in-sand.jpg](https://github.com/Loic-lhf/perso/blob/main/assets/covers/last-hand-in-sand.jpg) | [Léa Pinto (Artstation)](https://www.artstation.com/artwork/wOPnyg) |
+
 
 _Je précise que même s'il s'agit ici d'une utilisation non-commerciale, je ne possède aucun droit sur ces images. Ainsi, si leurs auteurs souhaitent les faire retirer de ce site, qu'ils n'hésitent pas à me contacter._
 

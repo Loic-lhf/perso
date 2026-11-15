@@ -2,8 +2,9 @@
 title: "Babl"
 summary: "Un GROS projet : Babelio recrutez moi svp."
 #externalUrl: ""
-cover : "cover.jpg"
+featureimage : "covers/last-hand-in-sand.jpg"
 showSummary: true
+tags: ["Projet", "Littérature"]
 date: 2026-04-11
 draft: false
 ---

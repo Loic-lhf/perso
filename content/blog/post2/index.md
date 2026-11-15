@@ -2,8 +2,9 @@
 title: "ReadAction"
 summary: "Un premier projet perso, juste pour le fun!"
 #externalUrl: ""
-cover : "cover.png"
+featureimage : "covers/last-hand-in-sand.jpg"
 showSummary: true
+tags: ["Projet", "Littérature"]
 date: 2026-03-10
 draft: false
 ---
